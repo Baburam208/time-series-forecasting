@@ -8,6 +8,14 @@
 - The final working graph is unweighted and undirected.
 
 ### Experimental Result
+- Pearson Correlation Based Graph
+The following is stock network obtained from Pearson Correlation Coefficient based graph construction technique. `(corr >= threshold (0.3)`
+![alt text](<Original Graph.png>) 
+
+- MST filtered graph
+After graph filteration technique (MST) we got following graph
+![alt text](<mst graph-1.png>)
+
 - We got `MAE=11.21, MSE=419.34, MAPE=1.89`
 
 - Case study of ticker; ADBL, we take a ticker ADBL and see its actual versus predicted close prices. The graph is as follows:
